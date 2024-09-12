@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+
+<body>
+    <!-- Assim eu crio um parágrafo -->
+    <p>
+        Você pode
+        escrever um parágrafo
+        de qualquer jeito.
+        Basta colocar tudo no meio do
+        par de tag &lt;p&gt; e /p&gt;
+    </p>
+
+    <p>
+        Se você precisar quebrar
+        o texto em algum lugar
+        específico<br> com esse,
+        você pode usar a tag &lt; br&gt;
+    </p>
+
+<p>
+    And know that i don't regret having met you, not loving you...Although it hurts to love and not have you.
+</p>
+
+<p></p>
+
+</body>
+</html>

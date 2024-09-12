@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>A baixo, temos um texto 'normal'</h1>
+    <p>O rato roeu a roupa do rei de roma</p>
+    <h2>Abaixo, temos um texto em negrito</h2>
+    <p> <strong>O rato roeu a roupa do rei de roma</strong> </p>
+    <h3>Abaixo, temos um texto inteiro em itálico</h3>
+<h3>Abaixo, temos um texto 'normal' com apenas uma palavra em itálico</h3>
+<p>O rato roeu a roupa do rei de <em>roma</em></p>
+
+</body>
+</html>
