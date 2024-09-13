@@ -1,0 +1,21 @@
+/* estilos gerais para minha página*/
+body{
+    background-color: rgb(255, 255, 255);
+    color: aliceblue;
+
+    /* muda a cor do fundo*/ 
+color :rgb(0, 0, 0);
+
+/*tudo que tiver a etiqueta (tag) h1 vai ter essa cor*/ 
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+/* troca a fonte para a que eu escolhi*/
+}
+button {
+    color :rgb(154, 222, 231);
+    background-color: white; /* troca a cor de fundo*/
+}
+img{
+    width: 200px; ; /* em inglês significa largura */
+    height: px; ; /* em inglês significa altura*/
+} 
