@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(2, 32, 58);
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+.especial:hover {
+    color: crimson;
+    background-color: black;
+    text-decoration: none;
+}
+.especial:before {
+    content: '>';
+    font-weight: lighter;
+}
+.especial:after {
+    content: '>';
+    font-weight: lighter;
+}

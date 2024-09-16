@@ -1,21 +1,22 @@
-/* estilos gerais para minha página*/
-body{
-    background-color: rgb(255, 255, 255);
-    color: aliceblue;
-
-    /* muda a cor do fundo*/ 
-color :rgb(0, 0, 0);
-
-/*tudo que tiver a etiqueta (tag) h1 vai ter essa cor*/ 
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-/* troca a fonte para a que eu escolhi*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
-button {
-    color :rgb(154, 222, 231);
-    background-color: white; /* troca a cor de fundo*/
+h1{
+    font-size: 2em;
+    color: rgb(63, 14, 14);
 }
-img{
-    width: 200px; ; /* em inglês significa largura */
-    height: px; ; /* em inglês significa altura*/
-} 
+
+h2 {
+     color: rgb(0, 0, 0);
+}
+#título-principal {
+    background-color: rgb(53, 5, 15);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.topico {
+    text-align: right;
+}
+.texto {
+text-justify: var(background-color);
+}
