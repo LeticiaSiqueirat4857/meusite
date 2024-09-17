@@ -1,0 +1,38 @@
+#Exercícios {
+    background-color: rgb(36, 59, 80);
+    width: 400px;
+    height: 250px;
+}
+/* estilo para o container principal */
+#container-principal {
+    background-color: azure; /* define a cor do fundo */
+    padding: 20px; /* espaço do lado de dentro */
+    height: 350px; /* altura */
+    border: 2px solid #361f6b; /* adiciona borda */
+    border-radius: 10px; /* define os cantos como arredondados */
+}
+.caixa-simples {
+    background-color: blueviolet;
+    color: #9e8cca;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 5px;
+}
+/*estilo para a caixa com o ID exclusivo */
+#caixa-diferente {
+    background-color: #7a6e97;
+    margin: 10px;/* espaço do lado de fora */
+color: aliceblue;
+width: 100px;
+height: 100px;
+text-align: center;
+line-height: 100px;
+border-radius: 10px;
+}
+#caixa-diferente:hover{
+background-color: #c9bce9;
+}
+
+

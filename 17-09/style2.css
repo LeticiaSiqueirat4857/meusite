@@ -1,0 +1,8 @@
+/* estilo para o container principal */
+#container-principal {
+    background-color: aliceblue; /* define a cor do fundo */
+    padding: 20px;
+    height: 350px;
+    border: 2px solid #262c63; /* adiciona borda */
+    border-radius: 10px; /* define os cantos como arredondados */
+}
