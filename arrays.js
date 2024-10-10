@@ -60,7 +60,7 @@ let soma = 0
 
 for (let i =0; i < números.length; i++) {
     soma += números[i]
-    console.log('${soma}')
+    console.log(`${soma}`)
 }
 let média = soma / números.length 
 console.log(`a soma é ${soma}, e temos${números.length} números na lista. portanto, a média é ${média}.`)
