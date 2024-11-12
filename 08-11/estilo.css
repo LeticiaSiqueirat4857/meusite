@@ -1,0 +1,8 @@
+body {
+    margin: 0 ; /* Remove as margens padrão */
+    padding: 0 ; /* Remove qualquer padding extra */
+    /* overflow : hidden ; /* Imprede que a barra de rolagem apareça */
+    font-family : Verdana, Geneva, Tahoma, sans-serif ; 
+    color :rgb(0, 0, 0) ;
+    background-image: url(https://img.freepik.com/free-photo/spooky-forest-dark-mystery-horror-nature-generated-by-ai_24640-81335.jpg);
+}

@@ -1,0 +1,108 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(180, 215, 245);
+    color : "white" ;
+    
+}
+
+body {
+    margin: 0 ; /* Remove as margens padrão */
+    padding: 0 ; /* Remove qualquer padding extra */
+    /* overflow : hidden ; /* Imprede que a barra de rolagem apareça */
+    font-family : Verdana, Geneva, Tahoma, sans-serif ; 
+    color :rgb(0, 0, 0) ;
+    background-image: url(https://wallpapercave.com/wp/wp5567473.jpg);
+}
+
+
+
+
+/* Assim importamos uma fonte no Css */
+
+@font-face {
+    font-family: "scary";
+    src: url(fonts/Stranger.ttf);
+}
+
+.tituloMenor {
+    font-size: 14px ;
+    margin: 0 ;
+}
+
+#titulo1 {
+font-size: 10vh;
+font-family: "scary";
+margin: 0 ;
+
+
+    line-height: 15px;
+    font-weight: 15px ;
+}
+
+a{
+    font-family: "scary";
+    text-decoration: none;
+    color : "white" ;
+}
+
+main{
+    height: 100vh;
+    display : flex ;
+    justify-content: center ;
+    align-content: center;
+    align-items: center;
+
+
+
+    flex-direction: column ;
+    align-items: center;
+}
+
+.botao {
+    padding: 5px ;
+    border-radius: 7px ;
+    background-color: aqua ;
+    background-color: black ;
+    border: none ;
+}
+.botao:hover {
+    background-color: aqua ;
+    color:aliceblue ;
+    text-shadow: 0 0 10px aqua ;
+}
+
+
+
+
+
+
+
+.pai{
+    display: center ;
+    flex-direction: column ;
+   justify-content: center ;
+   text-align: center ;
+   align-items: center ;
+   padding: 30px ;
+   background-color: rgb(255, 255, 255) ;
+   box-shadow: 0 0 20px 10px rgb(255, 255, 255) ; /* cria a borda suave com efeito de luz */
+}
+
+
+.filho {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
