@@ -1,8 +1,102 @@
 body {
-    margin: 0 ; /* Remove as margens padrão */
-    padding: 0 ; /* Remove qualquer padding extra */
-    /* overflow : hidden ; /* Imprede que a barra de rolagem apareça */
-    font-family : Verdana, Geneva, Tahoma, sans-serif ; 
-    color :rgb(0, 0, 0) ;
-    background-image: url(https://img.freepik.com/free-photo/spooky-forest-dark-mystery-horror-nature-generated-by-ai_24640-81335.jpg);
+    
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove qualquer padding extra */
+    /*overflow: hidden; /* Impede que a barra de rolagem apareça */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-image: url(ghostface-scream-mask.gif);
+    background-size: cover;
+}
+
+
+/* Assim importamos uma fonte no Css*/
+
+@font-face {
+    font-family: 'Scary';
+    src: url('fonts/Creepster-Regular.ttf') format('truetype');
+}
+
+
+
+  
+
+.tituloMenor {
+    font-size: 14px;
+    margin: 0;
+}
+
+#titulo1 {
+    letter-spacing: 0.3vh;
+    font-size: 10vh;
+    font-family: 'Scary';
+    margin: 0;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Scary';
+    letter-spacing: 0.1vh;
+}
+
+
+
+
+
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+.pai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 20px 10px rgb(255, 255, 255); /* Cria a borda suave com efeito de luz verde */
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.botao {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+.botao:hover {
+    background-color: #000000;
+    color: #ffffff;
+    
+    text-shadow: 0 0 10px #000000;
 }

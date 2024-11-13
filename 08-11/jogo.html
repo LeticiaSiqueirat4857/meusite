@@ -1,49 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Perguntas e Respostas</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas e Respostas</title>
+    <link rel="shortcut icon" href="img/vela-de-halloween.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body id="page2">
-<main>
+
+    <main>
+        <section class="pai questao ativa" >
+            <h3 class="titulo filho" id="pergunta">Consegue acertar essas perguntas sobre a saga pânico? <br>Quem é o assassino icônico na saga pânico...?</h3>
+            
+            <div class="opcoes">
+                <button class="resposta" onclick="responder(false)">Leatherface</button>
+                <button class="resposta" onclick="responder(false)">Ghostface</button>
+                <button class="resposta">Ghostface</button>
+                <button class="resposta" onclick="responder(false)">Chucky</button>
+                <button class="resposta" onclick="responder(false)">Michael Myers</button>
+            </div>
+            
+            
+        </section>
         
-<section class="pai">
-<h3 class="titulo filho" id="pergunta">Vlad III Draculea era <br> o nome verderdadeiro de ... ?</h3>
-
-<div class="opcoes">
-
-<button class="Resposta">Frankenstein</button>
-<button class="Resposta">Barão Vermelho</button>
-<button class="Resposta">Conde Drácula</button>
-<button class="Resposta">Sherlock Holmes</button>
-<button class="Resposta">Conde de Monte Cristo</button>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-        <a class="botao filho" href="jogo.html">iniciar</a>
-        
-
-    </section>
-    
-    
     </main>
 
+    <section class="pai questao" >
+        <h3 class="titulo filho" id="pergunta">Sobre a saga pânico :<br>Qual a cidade fictícia onde ocorrem os assasinatos nos filmes...?</h3>
+        
+        <div class="opcoes">
+            <button class="resposta" onclick="responder(false)">Crystal Lake</button>
+            <button class="resposta" onclick="responder(false)">Elm Street</button>
+            <button class="resposta">Woodsboro</button>
+            <button class="resposta" onclick="responder(false)">Haddonfield</button>
+            <button class="resposta" onclick="responder(false)">Woodsboro</button>
+        </div>
+        
+        
+    </section>
+
+
+    <section class="pai questao" >
+        <h3 class="titulo filho" id="pergunta">Sobre a saga pânico : <br>Quem interpretou o papel principal de Sidney Prescott...?</h3>
+        
+        <div class="opcoes">
+            <button class="resposta" onclick="responder(false)">Jennifer Love Hewitt</button>
+            <button class="resposta" onclick="responder(false)">Neve Campbell</button>
+            <button class="resposta">Neve Campbell</button>
+            <button class="resposta" onclick="responder(false)">Sarah Michelle Gellar</button>
+            <button class="resposta" onclick="responder(false)">Courteney Cox</button>
+        </div>
+        
+        
+    </section>
+
+
+
+    <section class="pai questao" >
+    <h3 class="titulo filho" id="pergunta">Sobre a saga pânico : <br>Quem é o assassino icônico na saga pânico...?</h3>
+        
+    <div class="opcoes">
+    <button class="resposta" onclick="responder(false)">Leatherface</button>
+    <button class="resposta" onclick="responder(false)">Ghostface</button>
+    <button class="resposta">Ghostface</button>
+    <button class="resposta" onclick="responder(false)">Chucky</button>
+    <button class="resposta" onclick="responder(false)">Michael Myers</button>
+    </div>
+        
+        
+    </section>
+
+
+
+    <section class="pai questao" >
+        <h3 class="titulo filho" id="pergunta">Consegue acertar essas perguntas sobre a saga pânico? <br>Quem é o asasino icônico na saga pânico...?</h3>
+        
+        <div class="opcoes">
+            <button class="resposta" onclick="responder(false)">Leatherface</button>
+            <button class="resposta" onclick="responder(false)">Ghostface</button>
+            <button class="resposta">Ghostface</button>
+            <button class="resposta" onclick="responder(false)">Chucky</button>
+            <button class="resposta" onclick="responder(false)">Michael Myers</button>
+        </div>
+        
+        
+    </section>
 
 
 
@@ -51,23 +93,14 @@
 
 
 
+        <!-- Imagem de erro em tela cheia -->
+        <div id="telaCheiaErro" class="tela-cheia">
+            <img src="img/jumpscare7.jpg" alt="Erro" id="imagemErro">
+            <audio id="somErro" src="audio/audio1.mp3"></audio>
+        </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<script src="script.js"></script>
 
 </body>
 </html>
